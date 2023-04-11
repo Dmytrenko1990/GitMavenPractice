@@ -6,8 +6,8 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(features = "src\\test\\resources\\Features",
-        glue = "StepDefinitions",
-        dryRun = true,
+        glue = "StepDefenition",
+        dryRun = false,
         tags =  "@smoke",
         plugin = {"pretty"}
 )
